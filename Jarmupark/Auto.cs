@@ -10,6 +10,18 @@ namespace Jarmupark
     {
         private string szin, tipus;
         private double uzemAnyag, fogyaszt, km, megthetetoKm;
+        public double KM
+        {
+            get { return km; }
+        }
+        public double UZEMANYAG
+        {
+            get { return uzemAnyag; }
+        }
+        public double MEGTEHETOKM
+        {
+            get { return megthetetoKm; }
+        }
         public Auto(string szin, string tipus, double fogyaszt)
         {
             this.szin = szin;

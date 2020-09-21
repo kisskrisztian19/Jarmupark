@@ -21,8 +21,8 @@ namespace Jarmupark
             int km = int.Parse(Console.ReadLine());
 
             lada.Megy(km);
-
-            lada.Allapot();
+            Console.WriteLine($"Megtehető km: {lada.MEGTEHETOKM}km");
+            Console.WriteLine($"Üzemanyag: {lada.UZEMANYAG}l");
 
             Console.WriteLine("-----------------Trabant----------------");
 
@@ -36,8 +36,8 @@ namespace Jarmupark
             int km1 = int.Parse(Console.ReadLine());
 
             trabant.Megy(km1);
-
-            trabant.Allapot();
+            Console.WriteLine($"Megtehető km: {trabant.MEGTEHETOKM}km");
+            Console.WriteLine($"Üzemanyag: {trabant.UZEMANYAG} l");
 
             Console.ReadKey();
         }
